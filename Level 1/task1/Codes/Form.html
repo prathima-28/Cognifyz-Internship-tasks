@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff6f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 100px auto;
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 65%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4B0082;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #360060;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Enter Your Name</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
